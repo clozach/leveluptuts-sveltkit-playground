@@ -1,20 +1,12 @@
-<header>
-	<h1>Nav</h1>
-</header>
+<script>
+	import Header from '$lib/Header.svelte';
+	import Footer from '$lib/Footer.svelte';
+</script>
 
-<nav>
-	<a href="/">Home</a>
-	<a href="/about">About Foo</a>
-</nav>
+<Header />
 
 <main>
 	<slot />
 </main>
 
-<footer>Copywrite © 2021 Elbong Q. Gearny</footer>
-
-<style>
-	h1 {
-		color: red;
-	}
-</style>
+<Footer />
