@@ -7,7 +7,7 @@
 	</nav>
 </header>
 
-<style lang="scss">
+<!-- <style lang="scss">
 	header {
 		color: red;
 		nav {
@@ -19,4 +19,4 @@
 			padding: 1rem;
 		}
 	}
-</style>
+</style> -->
