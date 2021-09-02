@@ -1,3 +1,8 @@
+---
+title: Hi
+slug: hello
+---
+
 # Hello Whirled
 
 - first
