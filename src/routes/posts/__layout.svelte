@@ -28,7 +28,7 @@
       <li><a href="/posts">Blog</a></li>
       <li><a href="/posts/about">About Blog</a></li>
       {#each posts.reverse() as post}
-        <li><a href={post.slug}>{post.title}</a></li>
+        <li><a href={`/posts/${post.slug}`}>{post.title}</a></li>
       {/each}
     </ul>
   </aside>
