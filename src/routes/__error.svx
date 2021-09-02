@@ -1,1 +1,18 @@
+<script context="module">
+  export function load({ error, status }) {
+    return { props: {error, status} };
+  }
+</script>
+
+<script>
+  export let error
+  export let status
+</script>
+
 # You look lost…
+
+_{status}_
+
+**{error.message}**
+
+§
