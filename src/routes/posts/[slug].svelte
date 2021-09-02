@@ -7,8 +7,8 @@
       };
     } catch (error) {
       return {
-        status: 303,
-        redirect: '/posts'
+        status: 404,
+        error: '☣️ Got nada'
       };
     }
   }
