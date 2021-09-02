@@ -1,19 +1,20 @@
 <script context="module">
   export async function load({ page, fetch, session, context }) {
+    const Hello = (await import('../../posts/hello.md')).default;
     const post = {
       title: page.params.slug,
       date: new Date(),
       body: `Lorem ipsum dolor sit amet,…`
     };
     return {
-      props: { post }
+      props: { Hello, post }
     };
   }
 </script>
 
 <script>
-  import Hello from '../../posts/hello.md';
   export let post;
+  export let Hello;
 </script>
 
 <Hello />
